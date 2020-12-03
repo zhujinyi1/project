@@ -1,0 +1,75 @@
+/*
+函数功能：输入N个学生全部信息
+参数：无
+返回值：无
+*/
+void input()
+{
+	
+
+	int i,j,l;
+	printf("\n输入学生全部信息\n");
+	for(i=0;i<N;i++)
+	{
+		fflush(stdin);//清空键盘缓冲区
+		printf("\n请输入第%d个学生学号=",i+1);
+		gets(s[i].xuehao);
+		fflush(stdin);
+		while(strlen(s[i].xuehao)==0)
+		{
+			printf("不能为空\n");
+			printf("\n请输入第%d个学生学号=",i+1);
+			gets(s[i].xuehao);
+			fflush(stdin);
+		}
+		printf("\n请输入第%d个学生姓名=",i+1);
+		gets(s[i].xm);
+		fflush(stdin);
+		while(strlen(s[i].xm)==0)
+		{
+			printf("不能为空\n");
+			printf("\n请输入第%d个学生姓名=",i+1);
+			gets(s[i].xm);
+			fflush(stdin);
+		}
+		printf("\n请输入第%d个学生性别=",i+1);
+		s[i].xb=getchar();
+		while(s[i].xb!='m'&&s[i].xb!='f')
+		{
+			printf("性别必须为m/f");
+			fflush(stdin);
+			printf("\n请输入第%d个学生性别=",i+1);
+			s[i].xb=getchar();
+		}
+		fflush(stdin);
+		printf("\n请输入第%d个学生成绩：",i+1);
+		for(j=0;j<M;j++)
+		{
+			printf("\n第%d门课=",j+1);
+            scanf("%lf",&s[i].cj[j]);
+			while(s[i].cj[j]<0||s[i].cj[j]>100)
+			{
+				printf("成绩必须在0-100之间");
+				printf("\n第%d门课=",j+1);
+    	        scanf("%lf",&s[i].cj[j]);
+			}
+		}
+	}
+}
+/*
+函数功能：输出N个学生全部信息
+参数：无
+返回值：无
+*/
+void output()
+{
+	int i,j;
+	printf("\n学号\t姓名\t性别\t语文\t数学\t外语\t总分\t平均分\n");
+	for(i=0;i<N;i++)
+	{
+		printf("%s\t%s\t%c\t",s[i].xuehao,s[i].xm,s[i].xb);
+		for(j=0;j<M+2;j++)
+			printf("%.2lf\t",s[i].cj[j]);
+		printf("\n");
+	}
+}
