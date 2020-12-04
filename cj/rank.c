@@ -104,4 +104,6 @@ void  paixu_zicaidan()
 				break;
 			fflush(stdin);//吸收脏数据—回车
 		}
+		    memset(temp.xm,'\0',1);
+    		memset(temp.xuehao,'\0',1);
 }
