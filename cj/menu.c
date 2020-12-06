@@ -5,12 +5,10 @@
 */
 void main_menu()
 {
-	char m;
 	int choice=0,i;
 	printf("欢迎来到祝津一的学生成绩管理系统\n");
-	printf("欢迎来到祝津一的学生成绩管理系统\n");
-	printf("欢迎来到祝津一的学生成绩管理系统\n");
-	printf("太激动了\n");
+	printf("做例子，本程序最多只能录入十个人\n");
+	printf("所以，莫抬杠\n");
 	printf("毕竟前前后后断断续续做了六七个小时\n");
 	printf("可能还不止\n");
 	printf("如果这个程序您觉得满意了，请给我加点分\n");
@@ -18,7 +16,7 @@ void main_menu()
 	printf("毕竟时间摆在这里啊！！！\n");
 	printf("我只能说，我尽力了\n");
 	printf("现在，请按回车进入我的系统吧！(别瞎搞，这里我没做循环)\n");
-	m=getchar();
+	getchar();
 	for(i=1;i<=50;i++)
 		printf("\n");
 	while(1)

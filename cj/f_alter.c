@@ -14,7 +14,7 @@ void alter()
         {
             h=0;
             p=&s[i];
-            printf("\n┏━━━━━━菜单━━━━━┓");
+            printf("\n┏━━━━━━修改━━━━━┓");
 		    printf("\n┃ 1、学号                  ┃");
 		    printf("\n┃ 2、性别                  ┃");
 		    printf("\n┃ 3、成绩                  ┃");

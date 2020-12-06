@@ -1,6 +1,12 @@
-void addition()
+int addition()
 {
     int f,i,j;
+	if(N==10)
+	{
+		printf("人已经满了，不能再加了哦！\n");
+		printf("已经自动退出");
+		return 1;
+	}
     printf("请输入想要添加的位置：（0~%d）",N);
     scanf("%d",&f);
     for(i=N;i>f;i--)
