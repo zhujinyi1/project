@@ -84,9 +84,9 @@ void  paixu_zicaidan()
 		while(1)
 		{
 			printf("\n┏━━━排序子菜单━━━━━┓");
-			printf("\n┃ 1、按照总分降序排列      ┃");
-			printf("\n┃ 2、按照姓名降序排列      ┃");
-			printf("\n┃ 3、按照性别降序排列      ┃");
+			printf("\n┃ 1、按照总分降序输出      ┃");
+			printf("\n┃ 2、按照姓名降序输出      ┃");
+			printf("\n┃ 3、按照性别降序输出      ┃");
 			printf("\n┃ 0、返回主菜单            ┃");
 			printf("\n┗━━━━━━━━━━━━━┛");
 			printf("\n━━请输入你的选择：");
@@ -104,6 +104,4 @@ void  paixu_zicaidan()
 				break;
 			fflush(stdin);//吸收脏数据—回车
 		}
-		    memset(temp.xm,'\0',1);
-    		memset(temp.xuehao,'\0',1);
 }
