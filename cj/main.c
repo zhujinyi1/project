@@ -20,7 +20,7 @@ struct students
 #include"finput.c"
 #include"menu.c"
 
-/*Ö÷º¯Êý*/
+/*ä¸»å‡½æ•°*/
 int main()
 {
     memset(s,'\0',1);

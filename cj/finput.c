@@ -1,70 +1,68 @@
 /*
-º¯Êý¹¦ÄÜ£ºÊäÈëN¸öÑ§ÉúÈ«²¿ÐÅÏ¢
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šè¾“å…¥Nä¸ªå­¦ç”Ÿå…¨éƒ¨ä¿¡æ¯
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void input()
 {
-	
-
 	int i,j,l;
-	printf("\nÊäÈëÑ§ÉúÈ«²¿ÐÅÏ¢\n");
+	printf("\nè¾“å…¥å­¦ç”Ÿå…¨éƒ¨ä¿¡æ¯\n");
 	for(i=0;i<N;i++)
 	{
-		fflush(stdin);//Çå¿Õ¼üÅÌ»º³åÇø
-		printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúÑ§ºÅ=",i+1);
+		fflush(stdin);//æ¸…ç©ºé”®ç›˜ç¼“å†²åŒº
+		printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿå­¦å·=",i+1);
 		gets(s[i].xuehao);
 		fflush(stdin);
-		while(strlen(s[i].xuehao)==0)
+		while(strlen(s[i].xuehao)==0)    //æ±‚å­—ç¬¦ä¸²é•¿åº¦
 		{
-			printf("²»ÄÜÎª¿Õ\n");
-			printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúÑ§ºÅ=",i+1);
+			printf("ä¸èƒ½ä¸ºç©º\n");
+			printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿå­¦å·=",i+1);
 			gets(s[i].xuehao);
 			fflush(stdin);
 		}
-		printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúÐÕÃû=",i+1);
+		printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿå§“å=",i+1);
 		gets(s[i].xm);
 		fflush(stdin);
 		while(strlen(s[i].xm)==0)
 		{
-			printf("²»ÄÜÎª¿Õ\n");
-			printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúÐÕÃû=",i+1);
+			printf("ä¸èƒ½ä¸ºç©º\n");
+			printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿå§“å=",i+1);
 			gets(s[i].xm);
 			fflush(stdin);
 		}
-		printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúÐÔ±ð=",i+1);
+		printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿæ€§åˆ«=",i+1);
 		s[i].xb=getchar();
 		while(s[i].xb!='m'&&s[i].xb!='f')
 		{
-			printf("ÐÔ±ð±ØÐëÎªm/f");
+			printf("æ€§åˆ«å¿…é¡»ä¸ºm/f");
 			fflush(stdin);
-			printf("\nÇëÊäÈëµÚ%d¸öÑ§ÉúÐÔ±ð=",i+1);
+			printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿæ€§åˆ«=",i+1);
 			s[i].xb=getchar();
 		}
 		fflush(stdin);
-		printf("\nÇëÊäÈëµÚ%d¸öÑ§Éú³É¼¨£º",i+1);
+		printf("\nè¯·è¾“å…¥ç¬¬%dä¸ªå­¦ç”Ÿæˆç»©ï¼š",i+1);
 		for(j=0;j<M;j++)
 		{
-			printf("\nµÚ%dÃÅ¿Î=",j+1);
+			printf("\nç¬¬%dé—¨è¯¾=",j+1);
             scanf("%lf",&s[i].cj[j]);
 			while(s[i].cj[j]<0||s[i].cj[j]>100)
 			{
-				printf("³É¼¨±ØÐëÔÚ0-100Ö®¼ä");
-				printf("\nµÚ%dÃÅ¿Î=",j+1);
+				printf("æˆç»©å¿…é¡»åœ¨0-100ä¹‹é—´");
+				printf("\nç¬¬%dé—¨è¯¾=",j+1);
     	        scanf("%lf",&s[i].cj[j]);
 			}
 		}
 	}
 }
 /*
-º¯Êý¹¦ÄÜ£ºÊä³öN¸öÑ§ÉúÈ«²¿ÐÅÏ¢
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šè¾“å‡ºNä¸ªå­¦ç”Ÿå…¨éƒ¨ä¿¡æ¯
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void output()
 {
 	int i,j;
-	printf("\nÑ§ºÅ\tÐÕÃû\tÐÔ±ð\tÓïÎÄ\tÊýÑ§\tÍâÓï\t×Ü·Ö\tÆ½¾ù·Ö\n");
+	printf("\nå­¦å·\tå§“å\tæ€§åˆ«\tè¯­æ–‡\tæ•°å­¦\tå¤–è¯­\tæ€»åˆ†\tå¹³å‡åˆ†\n");
 	for(i=0;i<N;i++)
 	{
 		printf("%s\t%s\t%c\t",s[i].xuehao,s[i].xm,s[i].xb);

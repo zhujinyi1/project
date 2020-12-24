@@ -1,7 +1,7 @@
 /*
-º¯Êý¹¦ÄÜ£ºN¸öÑ§Éú³É¼¨ÇóºÍ¡¢ÇóÆ½¾ù
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šNä¸ªå­¦ç”Ÿæˆç»©æ±‚å’Œã€æ±‚å¹³å‡
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void sum_ave()
 {
@@ -12,12 +12,12 @@ void sum_ave()
 		p->cj[M+1]=0;
 		p->cj[M]=0;
 	}
-	printf("\nÑ§Éú³É¼¨ÇóºÍ£¬Æ½¾ù·Ö\n");
+	printf("\nå­¦ç”Ÿæˆç»©æ±‚å’Œï¼Œå¹³å‡åˆ†\n");
 	for(i=0;i<N;i++)
 	{
 		for(j=0;j<M;j++)
 			s[i].cj[M]=s[i].cj[M]+s[i].cj[j];
 		s[i].cj[M+1]=s[i].cj[M]/M;
 	}
-	printf("\nÑ§Éú³É¼¨ÇóºÍ£¬Æ½¾ù·Ö Íê³É£¡£¡\n");
+	printf("\nå­¦ç”Ÿæˆç»©æ±‚å’Œï¼Œå¹³å‡åˆ† å®Œæˆï¼ï¼\n");
 }

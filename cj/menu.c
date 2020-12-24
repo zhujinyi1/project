@@ -1,65 +1,65 @@
 /*
-º¯Êý£ºÖ÷²Ëµ¥
-²ÎÊý£º¡£
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°ï¼šä¸»èœå•
+å‚æ•°ï¼šã€‚
+è¿”å›žå€¼ï¼šæ— 
 */
 void main_menu()
 {
 	char m;
 	int choice=0,i;
-	printf("»¶Ó­À´µ½×£½òÒ»µÄÑ§Éú³É¼¨¹ÜÀíÏµÍ³\n");
-	printf("»¶Ó­À´µ½×£½òÒ»µÄÑ§Éú³É¼¨¹ÜÀíÏµÍ³\n");
-	printf("»¶Ó­À´µ½×£½òÒ»µÄÑ§Éú³É¼¨¹ÜÀíÏµÍ³\n");
-	printf("Ì«¼¤¶¯ÁË\n");
-	printf("±Ï¾¹Ç°Ç°ºóºó¶Ï¶ÏÐøÐø×öÁËÁùÆß¸öÐ¡Ê±\n");
-	printf("¿ÉÄÜ»¹²»Ö¹\n");
-	printf("Èç¹ûÕâ¸ö³ÌÐòÄú¾õµÃÂúÒâÁË£¬Çë¸øÎÒ¼Óµã·Ö\n");
-	printf("Èç¹û²»¹»ÍêÃÀ£¬»¹ÓÐbugµÄ»°£¬Ò²ÇëÔ­ÁÂ\n");
-	printf("±Ï¾¹Ê±¼ä°ÚÔÚÕâÀï°¡£¡£¡£¡\n");
-	printf("ÎÒÖ»ÄÜËµ£¬ÎÒ¾¡Á¦ÁË\n");
-	printf("ÏÖÔÚ£¬Çë°´»Ø³µ½øÈëÎÒµÄÏµÍ³°É£¡(±ðÏ¹¸ã£¬ÕâÀïÎÒÃ»×öÑ­»·)\n");
+	printf("æ¬¢è¿Žæ¥åˆ°ç¥æ´¥ä¸€çš„å­¦ç”Ÿæˆç»©ç®¡ç†ç³»ç»Ÿ\n");
+	printf("æ¬¢è¿Žæ¥åˆ°ç¥æ´¥ä¸€çš„å­¦ç”Ÿæˆç»©ç®¡ç†ç³»ç»Ÿ\n");
+	printf("æ¬¢è¿Žæ¥åˆ°ç¥æ´¥ä¸€çš„å­¦ç”Ÿæˆç»©ç®¡ç†ç³»ç»Ÿ\n");
+	printf("å¤ªæ¿€åŠ¨äº†\n");
+	printf("æ¯•ç«Ÿå‰å‰åŽåŽæ–­æ–­ç»­ç»­åšäº†å…­ä¸ƒä¸ªå°æ—¶\n");
+	printf("å¯èƒ½è¿˜ä¸æ­¢\n");
+	printf("å¦‚æžœè¿™ä¸ªç¨‹åºæ‚¨è§‰å¾—æ»¡æ„äº†ï¼Œè¯·ç»™æˆ‘åŠ ç‚¹åˆ†\n");
+	printf("å¦‚æžœä¸å¤Ÿå®Œç¾Žï¼Œè¿˜æœ‰bugçš„è¯ï¼Œä¹Ÿè¯·åŽŸè°…\n");
+	printf("æ¯•ç«Ÿæ—¶é—´æ‘†åœ¨è¿™é‡Œå•Šï¼ï¼ï¼\n");
+	printf("æˆ‘åªèƒ½è¯´ï¼Œæˆ‘å°½åŠ›äº†\n");
+	printf("çŽ°åœ¨ï¼Œè¯·æŒ‰å›žè½¦è¿›å…¥æˆ‘çš„ç³»ç»Ÿå§ï¼(åˆ«çžŽæžï¼Œè¿™é‡Œæˆ‘æ²¡åšå¾ªçŽ¯)\n");
 	m=getchar();
 	for(i=1;i<=50;i++)
 		printf("\n");
 	while(1)
     {
-		printf("\n©³©¥©¥©¥©¥©¥©¥²Ëµ¥©¥©¥©¥©¥©¥©·");
-		printf("\n©§ 1¡¢ÊäÈëÈ«²¿Ñ§Éú³É¼¨      ©§");
-		printf("\n©§ 2¡¢Ñ§Éú³É¼¨ÇóºÍ£¬Æ½¾ù·Ö  ©§");
-		printf("\n©§ 3¡¢Êä³öÈý¸öÑ§Éú³É¼¨      ©§");
-		printf("\n©§ 4¡¢ÅÅÐò                  ©§");
-		printf("\n©§ 5¡¢²éÕÒ                  ©§");
-		printf("\n©§ 6¡¢Í³¼Æ                  ©§");
-		printf("\n©§ 7¡¢Ìí¼Ó                  ©§");
-		printf("\n©§ 8¡¢ÐÞ¸Ä                  ©§");
-		printf("\n©§ 9¡¢É¾³ý                  ©§");
-		printf("\n©§ 0¡¢ÍË³ö                  ©§");
-		printf("\n©»©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¿");
-		printf("\n©¥©¥ÇëÊäÈëÄãµÄÑ¡Ôñ£º");
+		printf("\nâ”â”â”â”â”â”â”èœå•â”â”â”â”â”â”“");
+		printf("\nâ”ƒ 1ã€è¾“å…¥å…¨éƒ¨å­¦ç”Ÿæˆç»©      â”ƒ");
+		printf("\nâ”ƒ 2ã€å­¦ç”Ÿæˆç»©æ±‚å’Œï¼Œå¹³å‡åˆ†  â”ƒ");
+		printf("\nâ”ƒ 3ã€è¾“å‡ºä¸‰ä¸ªå­¦ç”Ÿæˆç»©      â”ƒ");
+		printf("\nâ”ƒ 4ã€æŽ’åº                  â”ƒ");
+		printf("\nâ”ƒ 5ã€æŸ¥æ‰¾                  â”ƒ");
+		printf("\nâ”ƒ 6ã€ç»Ÿè®¡                  â”ƒ");
+		printf("\nâ”ƒ 7ã€æ·»åŠ                   â”ƒ");
+		printf("\nâ”ƒ 8ã€ä¿®æ”¹                  â”ƒ");
+		printf("\nâ”ƒ 9ã€åˆ é™¤                  â”ƒ");
+		printf("\nâ”ƒ 0ã€é€€å‡º                  â”ƒ");
+		printf("\nâ”—â”â”â”â”â”â”â”â”â”â”â”â”â”â”›");
+		printf("\nâ”â”è¯·è¾“å…¥ä½ çš„é€‰æ‹©ï¼š");
 		scanf("%d",&choice);
 		switch(choice)
 		{
-			case 1: printf("\nÊäÈë%d¸öÑ§ÉúÐÅÏ¢\n",N);
+			case 1: printf("\nè¾“å…¥%dä¸ªå­¦ç”Ÿä¿¡æ¯\n",N);
 				input(); 
 				break;
 			case 2: sum_ave();
 		        break;
 			case 3: output();
 		        break;
-			case 4: paixu_zicaidan();//ÅÅÐò×Ó²Ëµ¥				
+			case 4: paixu_zicaidan();//æŽ’åºå­èœå•				
 			    break;
-			case 5: chazhao_zicaidan();//²éÕÒ
+			case 5: chazhao_zicaidan();//æŸ¥æ‰¾
 			    break;
-			case 6: add_score();//Í³¼Æ
+			case 6: add_score();//ç»Ÿè®¡
 			    break;
-			case 7: addition();//Ìí¼Ó
+			case 7: addition();//æ·»åŠ 
 				break;
-			case 8: alter();//ÐÞ¸Ä
+			case 8: alter();//ä¿®æ”¹
 				break;
-			case 9: f_del();//É¾³ý
+			case 9: f_del();//åˆ é™¤
 				break;
-			default: printf("\nÍË³ö\n");exit(0);
+			default: printf("\né€€å‡º\n");exit(0);
 		}
-		fflush(stdin);//ÎüÊÕÔàÊý¾Ý¡ª»Ø³µ
+		fflush(stdin);//å¸æ”¶è„æ•°æ®â€”å›žè½¦
 	}
 }

@@ -1,12 +1,12 @@
 
 /*
-º¯Êý¹¦ÄÜ£º°´ÕÕ×Ü·Ö½µÐòÅÅÐò×Óº¯Êý
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šæŒ‰ç…§æ€»åˆ†é™åºæŽ’åºå­å‡½æ•°
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void paixu_zongfen()
 {
-//1¡¢°´ÕÕ×Ü·Ö½µÐòÊä³ö 	
+//1ã€æŒ‰ç…§æ€»åˆ†é™åºè¾“å‡º 	
 	int i,j;
 	for(i=0;i<N-1;i++)
 	{
@@ -20,17 +20,17 @@ void paixu_zongfen()
 			}
 		}
 	}
-	printf("\n°´ÕÕ×Ü·Ö½µÐò¡ª¡ªÍê³ÉÁË\n");
+	printf("\næŒ‰ç…§æ€»åˆ†é™åºâ€”â€”å®Œæˆäº†\n");
 }
 
 /*
-º¯Êý¹¦ÄÜ£º°´ÕÕÐÕÃû½µÐòÅÅÐò×Óº¯Êý
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šæŒ‰ç…§å§“åé™åºæŽ’åºå­å‡½æ•°
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void paixu_xingming()
 {
-//2¡¢°´ÕÕÐÕÃû½µÐòÊä³ö    
+//2ã€æŒ‰ç…§å§“åé™åºè¾“å‡º    
 	int i,j;
 	for(i=0;i<N-1;i++)
 	{
@@ -44,18 +44,18 @@ void paixu_xingming()
 			}
 		}
 	}
-	printf("\n°´ÕÕÐÕÃû½µÐò¡ª¡ªÍê³ÉÁË\n");
+	printf("\næŒ‰ç…§å§“åé™åºâ€”â€”å®Œæˆäº†\n");
 }
 
 
 /*
-º¯Êý¹¦ÄÜ£º°´ÕÕÐÔ±ð½µÐòÅÅÐò×Óº¯Êý
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šæŒ‰ç…§æ€§åˆ«é™åºæŽ’åºå­å‡½æ•°
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void paixu_xingbie()
 {
-// 3¡¢°´ÕÕÐÔ±ð½µÐòÊä³ö   
+// 3ã€æŒ‰ç…§æ€§åˆ«é™åºè¾“å‡º   
 	int i,j;
 	for(i=0;i<N-1;i++)
 	{
@@ -69,27 +69,27 @@ void paixu_xingbie()
 			}
 		}
 	}
-	printf("\n°´ÕÕÐÔ±ð½µÐò¡ª¡ªÍê³ÉÁË\n");
+	printf("\næŒ‰ç…§æ€§åˆ«é™åºâ€”â€”å®Œæˆäº†\n");
 }
 
 
 /*
-º¯Êý¹¦ÄÜ£ºÅÅÐò×Ó²Ëµ¥
-²ÎÊý£ºÎÞ
-·µ»ØÖµ£ºÎÞ
+å‡½æ•°åŠŸèƒ½ï¼šæŽ’åºå­èœå•
+å‚æ•°ï¼šæ— 
+è¿”å›žå€¼ï¼šæ— 
 */
 void  paixu_zicaidan()
 {		
 	    int c=0;
 		while(1)
 		{
-			printf("\n©³©¥©¥©¥ÅÅÐò×Ó²Ëµ¥©¥©¥©¥©¥©¥©·");
-			printf("\n©§ 1¡¢°´ÕÕ×Ü·Ö½µÐòÊä³ö      ©§");
-			printf("\n©§ 2¡¢°´ÕÕÐÕÃû½µÐòÊä³ö      ©§");
-			printf("\n©§ 3¡¢°´ÕÕÐÔ±ð½µÐòÊä³ö      ©§");
-			printf("\n©§ 0¡¢·µ»ØÖ÷²Ëµ¥            ©§");
-			printf("\n©»©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¿");
-			printf("\n©¥©¥ÇëÊäÈëÄãµÄÑ¡Ôñ£º");
+			printf("\nâ”â”â”â”æŽ’åºå­èœå•â”â”â”â”â”â”“");
+			printf("\nâ”ƒ 1ã€æŒ‰ç…§æ€»åˆ†é™åºè¾“å‡º      â”ƒ");
+			printf("\nâ”ƒ 2ã€æŒ‰ç…§å§“åé™åºè¾“å‡º      â”ƒ");
+			printf("\nâ”ƒ 3ã€æŒ‰ç…§æ€§åˆ«é™åºè¾“å‡º      â”ƒ");
+			printf("\nâ”ƒ 0ã€è¿”å›žä¸»èœå•            â”ƒ");
+			printf("\nâ”—â”â”â”â”â”â”â”â”â”â”â”â”â”â”›");
+			printf("\nâ”â”è¯·è¾“å…¥ä½ çš„é€‰æ‹©ï¼š");
 			scanf("%d",&c);
 			switch(c)
 			{
@@ -102,6 +102,6 @@ void  paixu_zicaidan()
 			}
 			if(c!=1&&c!=2&&c!=3)
 				break;
-			fflush(stdin);//ÎüÊÕÔàÊý¾Ý¡ª»Ø³µ
+			fflush(stdin);//å¸æ”¶è„æ•°æ®â€”å›žè½¦
 		}
 }

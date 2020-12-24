@@ -1,45 +1,45 @@
 void addition()
 {
     int f,i,j;
-    printf("ÇëÊäÈëÏëÒªÌí¼ÓµÄÎ»ÖÃ£º£¨0~%d£©",N);
+    printf("è¯·è¾“å…¥æƒ³è¦æ·»åŠ çš„ä½ç½®ï¼šï¼ˆ0~%dï¼‰",N);
     scanf("%d",&f);
     for(i=N;i>f;i--)
         {
             s[i]=s[i-1];
         }
-    fflush(stdin);//Çå¿Õ¼üÅÌ»º³åÇø
-		printf("\nÑ§ºÅ=");
+    fflush(stdin);//æ¸…ç©ºé”®ç›˜ç¼“å†²åŒº
+		printf("\nå­¦å·=");
 		gets(s[f].xuehao);
 		fflush(stdin);
-		printf("\nĞÕÃû=");
+		printf("\nå§“å=");
 		gets(s[f].xm);
 		fflush(stdin);
 		while(strlen(s[f].xuehao)==0)
 		{
-			printf("²»ÄÜÎª¿Õ\n");
-			printf("\nÑ§ºÅ=");
+			printf("ä¸èƒ½ä¸ºç©º\n");
+			printf("\nå­¦å·=");
 			gets(s[f].xuehao);
 			fflush(stdin);
 		}
-		printf("\nĞÔ±ğ=");
+		printf("\næ€§åˆ«=");
 		s[f].xb=getchar();
 		while(strlen(s[f].xm)==0)
 		{
-			printf("²»ÄÜÎª¿Õ\n");
-			printf("\nĞÕÃû=");
+			printf("ä¸èƒ½ä¸ºç©º\n");
+			printf("\nå§“å=");
 			gets(s[f].xm);
 			fflush(stdin);
 		}
 		fflush(stdin);
-		printf("\n³É¼¨£º");
+		printf("\næˆç»©ï¼š");
 		for(j=0;j<M;j++)
 		{
-			printf("\nµÚ%dÃÅ¿Î=",j+1);
+			printf("\nç¬¬%dé—¨è¯¾=",j+1);
             scanf("%lf",&s[f].cj[j]);
 			while(s[f].cj[j]<0||s[f].cj[j]>100)
 			{
-				printf("³É¼¨±ØĞëÔÚ0-100Ö®¼ä");
-				printf("\nµÚ%dÃÅ¿Î=",j+1);
+				printf("æˆç»©å¿…é¡»åœ¨0-100ä¹‹é—´");
+				printf("\nç¬¬%dé—¨è¯¾=",j+1);
     	        scanf("%lf",&s[f].cj[j]);
 			}
 			
@@ -49,7 +49,7 @@ void addition()
 void f_del()
 {
 	 int f,i,j;
-    printf("ÇëÊäÈëÏëÒªÉ¾³ıµÄÎ»ÖÃ£º£¨0~%d£©",N-1);
+    printf("è¯·è¾“å…¥æƒ³è¦åˆ é™¤çš„ä½ç½®ï¼šï¼ˆ0~%dï¼‰",N-1);
     scanf("%d",&f);
     for(i=f;i<N-1;i++)
         {
