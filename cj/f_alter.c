@@ -1,6 +1,6 @@
 void alter()
 {
-            int j,h=1;
+    int j,h=1;
     double c;
     char i,x[12];
     printf("请输入要修改的对象的姓名:");
