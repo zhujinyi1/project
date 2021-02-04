@@ -6,21 +6,56 @@
 --------------------Configuration: qqq - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPFF18.tmp" with contents
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP672.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/qqq.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
-"C:\Users\Administrator\Desktop\project\qqq\p2_main.c"
+"C:\Users\Administrator\Desktop\project\qqq\p3_io.c"
+"C:\Users\Administrator\Desktop\project\qqq\p4.c"
+"C:\Users\Administrator\Desktop\project\qqq\p5_read_write.c"
+"C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c"
 ]
-Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPFF18.tmp" 
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP672.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP673.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/qqq.pdb" /debug /machine:I386 /out:"Debug/qqq.exe" /pdbtype:sept 
+.\Debug\p2_main.obj
+.\Debug\p3_io.obj
+.\Debug\p4.obj
+.\Debug\p5_read_write.obj
+.\Debug\p6_zhucaidan.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP673.tmp"
 <h3>Output Window</h3>
 Compiling...
-p2_main.c
-c:\users\administrator\desktop\project\qqq\p2_main.c(8) : warning C4013: 'zhucaidan' undefined; assuming extern returning int
+p3_io.c
+p4.c
+C:\Users\Administrator\Desktop\project\qqq\p4.c(45) : warning C4013: 'display' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p4.c(58) : warning C4101: 'i' : unreferenced local variable
+p5_read_write.c
+C:\Users\Administrator\Desktop\project\qqq\p4.c(46) : warning C4715: 'append' : not all control paths return a value
+C:\Users\Administrator\Desktop\project\qqq\p5_read_write.c(55) : warning C4101: 'xuehao' : unreferenced local variable
+C:\Users\Administrator\Desktop\project\qqq\p5_read_write.c(56) : warning C4101: 'i' : unreferenced local variable
+p6_zhucaidan.c
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(29) : warning C4013: 'create' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(29) : warning C4047: '=' : 'struct Grade_Info *' differs in levels of indirection from 'int '
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(31) : warning C4013: 'Insert' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(31) : warning C4047: '=' : 'struct Grade_Info *' differs in levels of indirection from 'int '
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(33) : warning C4013: 'update' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(33) : warning C4047: '=' : 'struct Grade_Info *' differs in levels of indirection from 'int '
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(35) : warning C4013: 'del' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(35) : warning C4047: '=' : 'struct Grade_Info *' differs in levels of indirection from 'int '
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(37) : warning C4013: 'display' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(39) : warning C4013: 'read_from_file' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(39) : warning C4047: '=' : 'struct Grade_Info *' differs in levels of indirection from 'int '
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(41) : warning C4013: 'write_to_file' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(43) : warning C4013: 'append' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\project\qqq\p6_zhucaidan.c(49) : warning C4098: 'zhucaidan' : 'void' function returning a value
+Linking...
 
 
 
 <h3>Results</h3>
-p2_main.obj - 0 error(s), 1 warning(s)
+qqq.exe - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
