@@ -28,13 +28,3 @@ void display(NODE* head)
 	}
 	pau();
 }
-
-/*
-函数功能：写入文件
-参数：头节点
-返回值：无
-*/
-void write(NODE* head){
-	NODE *p;
-
-}
