@@ -4,6 +4,6 @@ int main()
 {
 	
 	announce();
-	f_menu();
+	begin();
 	return 0;
 }

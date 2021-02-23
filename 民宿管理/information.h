@@ -19,3 +19,13 @@ struct room{      //民宿房间结构体
 };
 
 typedef struct room NODE;
+
+struct user{           //用户/ 管理员链表
+	char name[12];     //用户名
+	char key[12];      //密码
+	int rank;         //用户级别（1.管理员，2.用户）
+
+	struct user *next;
+};
+
+typedef struct user Users;

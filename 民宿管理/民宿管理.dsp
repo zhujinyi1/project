@@ -97,6 +97,10 @@ SOURCE=.\book.c
 # End Source File
 # Begin Source File
 
+SOURCE=.\file.c
+# End Source File
+# Begin Source File
+
 SOURCE=.\io.c
 # End Source File
 # Begin Source File
@@ -114,6 +118,10 @@ SOURCE=.\pause.c
 # Begin Source File
 
 SOURCE=.\pri.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\register.c
 # End Source File
 # Begin Source File
 
